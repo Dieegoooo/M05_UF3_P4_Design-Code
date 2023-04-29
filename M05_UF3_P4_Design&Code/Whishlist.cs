@@ -7,8 +7,12 @@ namespace M05_UF3_P4_Design_Code
     internal class Whishlist
     {
         
-        public List<string> whish_list;
-        public int user;
+        public List<Product> whish_list;
+        public string user
+        {
+            get { return user; }
+        }
+
         public float final_price;
 
         public void add_product(int product)

@@ -8,7 +8,11 @@ namespace M05_UF3_P4_Design_Code
     {
         public string user 
         {
-            get { return User}
+            get { return user; }
+        }
+        public string Product
+        {
+            get { return Product; }
         }
         public int valoration_5stars;
         public string comments;
