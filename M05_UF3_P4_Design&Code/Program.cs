@@ -5,10 +5,11 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace M05_UF3_P4_Design_Code
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {
+
             
             string selection;
             show_menu();
@@ -18,10 +19,6 @@ namespace M05_UF3_P4_Design_Code
                 case "1":
                     Orders.add_product();
                     break;
-
-
-     
-
 
             }
             

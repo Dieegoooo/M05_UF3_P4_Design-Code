@@ -6,14 +6,8 @@ namespace M05_UF3_P4_Design_Code
 {
     public class Review
     {
-        public string user 
-        {
-            get { return user; }
-        }
-        public string Product
-        {
-            get { return Product; }
-        }
+        public string user;
+        public string product;
         public int valoration_5stars;
         public string comments;
         public string id;
