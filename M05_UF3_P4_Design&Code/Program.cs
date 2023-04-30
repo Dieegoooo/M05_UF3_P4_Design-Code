@@ -10,17 +10,7 @@ namespace M05_UF3_P4_Design_Code
         static void Main(string[] args)
         {
 
-            
-            string selection;
-            show_menu();
-            selection = Console.ReadLine();
-            switch (selection)
-            {
-                case "1":
-                    Orders.add_product();
-                    break;
 
-            }
             
         }
 

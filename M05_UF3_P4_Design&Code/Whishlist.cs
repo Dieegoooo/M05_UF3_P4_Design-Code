@@ -4,11 +4,11 @@ using System.Text;
 
 namespace M05_UF3_P4_Design_Code
 {
-    internal class Wishlist
+    public class Wishlist
     {
-        public int id;
+ 
         public List<Product> whishes;
-        public string user;
+        public User user;
         public float final_price;
 
         public void add_product(int product)
