@@ -17,11 +17,6 @@ namespace M05_UF3_P4_Design_Code
         public float discount;
         public string category;
         public string subcategory;
-
-        public class SpecializedProduct : Product
-        {
-            public string subsubcategory;
-        }
     }
 
 }
