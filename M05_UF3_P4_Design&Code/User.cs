@@ -4,7 +4,7 @@ using System.Text;
 
 namespace M05_UF3_P4_Design_Code
 {
-    internal class User
+    public class User
     {
         public string name;
         public string last_name;
